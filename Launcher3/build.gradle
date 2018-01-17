@@ -1,11 +1,12 @@
 buildscript {
-    repositories {
-        mavenCentral()
-        jcenter()
-    }
+
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.1'
-        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.0'
+        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.2'
+    }
+    repositories {
+        google()
+        jcenter()
     }
 }
 
@@ -14,7 +15,7 @@ apply plugin: 'com.google.protobuf'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion '26.0.0'
+    buildToolsVersion '26.0.2'
 
     defaultConfig {
         minSdkVersion 21
@@ -22,6 +23,8 @@ android {
         versionCode 1
         versionName "1.0"
 
+//版本名后面添加一句话，意思就是flavor dimension 它的维度就是该版本号，这样维度就是都是统一的了
+         flavorDimensions "versionCode"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -61,11 +64,11 @@ android {
 }
 
 repositories {
-    mavenCentral()
+    google()
     jcenter()
 }
 
-final String SUPPORT_LIBS_VERSION = '26.0.0-SNAPSHOT'
+final String SUPPORT_LIBS_VERSION = '26.0.0-alpha1'
 dependencies {
     compile "com.android.support:support-v4:${SUPPORT_LIBS_VERSION}"
     compile "com.android.support:recyclerview-v7:${SUPPORT_LIBS_VERSION}"
