@@ -5,7 +5,7 @@ only study source
 现在 android 源码中 编译 Launcher3 模块,
 然后 进入 /out/target/common/obj/APPS/Launcher3_intermediates/ 目录,
 
-
+具体：Launcher3_intermediates/proto/src/com/android/launcher3/model/nano
 修改gradle文件：
 
 buildscript {
