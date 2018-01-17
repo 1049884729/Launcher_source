@@ -1,0 +1,165 @@
+# Referenced at packages/apps/Launcher2/res/layout/tab_widget_indicator.xml:17
+-keep class com.android.launcher2.AccessibleTabView { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout/apps_customize_pane.xml:54
+-keep class com.android.launcher2.AppsCustomizePagedView { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout/apps_customize_pane.xml:16
+-keep class com.android.launcher2.AppsCustomizeTabHost { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-land/application.xml:17
+# Referenced at packages/apps/Launcher2/res/layout-land/folder_icon.xml:30
+# Referenced at packages/apps/Launcher2/res/layout-port/application.xml:17
+# Referenced at packages/apps/Launcher2/res/layout-port/folder_icon.xml:30
+-keep class com.android.launcher2.BubbleTextView { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-land/hotseat.xml:21
+# Referenced at packages/apps/Launcher2/res/layout-port/hotseat.xml:21
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/hotseat.xml:21
+# Referenced at packages/apps/Launcher2/res/layout/user_folder.xml:25
+# Referenced at packages/apps/Launcher2/res/layout/workspace_screen.xml:17
+-keep class com.android.launcher2.CellLayout { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-land/all_apps_cling.xml:16
+# Referenced at packages/apps/Launcher2/res/layout-land/folder_cling.xml:16
+# Referenced at packages/apps/Launcher2/res/layout-land/workspace_cling.xml:16
+# Referenced at packages/apps/Launcher2/res/layout-port/all_apps_cling.xml:16
+# Referenced at packages/apps/Launcher2/res/layout-port/folder_cling.xml:16
+# Referenced at packages/apps/Launcher2/res/layout-port/workspace_cling.xml:16
+# Referenced at packages/apps/Launcher2/res/layout-sw600dp-port/all_apps_cling.xml:16
+# Referenced at packages/apps/Launcher2/res/layout-sw600dp-port/folder_cling.xml:16
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp-port/folder_cling.xml:16
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/all_apps_cling.xml:16
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/folder_cling.xml:16
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/workspace_cling.xml:16
+# Referenced at packages/apps/Launcher2/res/layout/custom_workspace_cling.xml:17
+-keep class com.android.launcher2.Cling { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout/drop_target_bar.xml:22
+-keep class com.android.launcher2.DeleteDropTarget { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-land/launcher.xml:27
+# Referenced at packages/apps/Launcher2/res/layout-port/launcher.xml:27
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/launcher.xml:27
+-keep class com.android.launcher2.DragLayer { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-land/launcher.xml:104
+# Referenced at packages/apps/Launcher2/res/layout-port/launcher.xml:99
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/launcher.xml:99
+-keep class com.android.launcher2.DrawableStateProxyView { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout/apps_customize_pane.xml:34
+-keep class com.android.launcher2.FocusOnlyTabWidget { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout/user_folder.xml:17
+-keep class com.android.launcher2.Folder { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout/user_folder.xml:40
+-keep class com.android.launcher2.FolderEditText { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-land/folder_icon.xml:17
+# Referenced at packages/apps/Launcher2/res/layout-port/folder_icon.xml:17
+-keep class com.android.launcher2.FolderIcon { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-land/search_bar.xml:22
+# Referenced at packages/apps/Launcher2/res/layout-land/search_bar.xml:37
+-keep class com.android.launcher2.HolographicImageView { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-port/search_bar.xml:25
+# Referenced at packages/apps/Launcher2/res/layout-port/search_bar.xml:50
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/search_bar.xml:25
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/search_bar.xml:49
+-keep class com.android.launcher2.HolographicLinearLayout { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-land/hotseat.xml:16
+# Referenced at packages/apps/Launcher2/res/layout-port/hotseat.xml:16
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/hotseat.xml:16
+-keep class com.android.launcher2.Hotseat { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout/drop_target_bar.xml:33
+-keep class com.android.launcher2.InfoDropTarget { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/AndroidManifest.xml:113
+-keep class com.android.launcher2.InstallShortcutReceiver { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/AndroidManifest.xml:71
+-keep class com.android.launcher2.Launcher { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/AndroidManifest.xml:64
+-keep class com.android.launcher2.LauncherApplication { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/AndroidManifest.xml:149
+-keep class com.android.launcher2.LauncherProvider { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/AndroidManifest.xml:139
+-keep class com.android.launcher2.PackageChangedReceiver { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-land/apps_customize_application.xml:17
+# Referenced at packages/apps/Launcher2/res/layout-port/apps_customize_application.xml:17
+-keep class com.android.launcher2.PagedViewIcon { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout/apps_customize_widget.xml:16
+-keep class com.android.launcher2.PagedViewWidget { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout/apps_customize_widget.xml:29
+-keep class com.android.launcher2.PagedViewWidgetImageView { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/AndroidManifest.xml:104
+-keep class com.android.launcher2.PreloadReceiver { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout/qsb_bar.xml:16
+-keep class com.android.launcher2.SearchDropTargetBar { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/AndroidManifest.xml:122
+-keep class com.android.launcher2.UninstallShortcutReceiver { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/AndroidManifest.xml:131
+-keep class com.android.launcher2.UserInitializeReceiver { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/AndroidManifest.xml:88
+-keep class com.android.launcher2.WallpaperChooser { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout/wallpaper_chooser_base.xml:24
+-keep class com.android.launcher2.WallpaperChooserDialogFragment { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-land/launcher.xml:34
+# Referenced at packages/apps/Launcher2/res/layout-port/launcher.xml:52
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/launcher.xml:52
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/workspace.xml:19
+-keep class com.android.launcher2.Workspace { <init>(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-land/all_apps_cling.xml:41
+# Referenced at packages/apps/Launcher2/res/layout-port/all_apps_cling.xml:41
+# Referenced at packages/apps/Launcher2/res/layout-sw600dp-port/all_apps_cling.xml:41
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/all_apps_cling.xml:39
+-keepclassmembers class * { *** dismissAllAppsCling(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-land/folder_cling.xml:41
+# Referenced at packages/apps/Launcher2/res/layout-port/folder_cling.xml:42
+# Referenced at packages/apps/Launcher2/res/layout-sw600dp-port/folder_cling.xml:42
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp-port/folder_cling.xml:39
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/folder_cling.xml:39
+-keepclassmembers class * { *** dismissFolderCling(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-land/workspace_cling.xml:51
+# Referenced at packages/apps/Launcher2/res/layout-port/workspace_cling.xml:54
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/workspace_cling.xml:54
+-keepclassmembers class * { *** dismissWorkspaceCling(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/market_button.xml:16
+# Referenced at packages/apps/Launcher2/res/layout/market_button.xml:16
+-keepclassmembers class * { *** onClickAppMarketButton(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-land/search_bar.xml:22
+# Referenced at packages/apps/Launcher2/res/layout-port/search_bar.xml:25
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/search_bar.xml:25
+-keepclassmembers class * { *** onClickSearchButton(...); }
+
+# Referenced at packages/apps/Launcher2/res/layout-land/launcher.xml:104
+# Referenced at packages/apps/Launcher2/res/layout-land/search_bar.xml:37
+# Referenced at packages/apps/Launcher2/res/layout-port/launcher.xml:99
+# Referenced at packages/apps/Launcher2/res/layout-port/search_bar.xml:50
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/launcher.xml:99
+# Referenced at packages/apps/Launcher2/res/layout-sw720dp/search_bar.xml:49
+-keepclassmembers class * { *** onClickVoiceButton(...); }
+

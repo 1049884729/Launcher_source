@@ -1,0 +1,179 @@
+# view res/layout/app_widget_resize_frame.xml #generated:17
+-keep class com.android.launcher3.AppWidgetResizeFrame { <init>(...); }
+
+# view AndroidManifest.xml #generated:149
+-keep class com.android.launcher3.AppWidgetsRestoredReceiver { <init>(...); }
+
+# view res/layout/all_apps_icon.xml #generated:16
+# view res/layout/app_icon.xml #generated:17
+# view res/layout/folder_application.xml #generated:17
+# view res/layout/folder_icon.xml #generated:23
+# view res/layout/system_shortcut.xml #generated:23
+# view res/layout/widgets_list_row_view.xml #generated:28
+-keep class com.android.launcher3.BubbleTextView { <init>(...); }
+
+# view res/layout/folder_page.xml #generated:17
+# view res/layout/hotseat.xml #generated:19
+# view res/layout/workspace_screen.xml #generated:17
+-keep class com.android.launcher3.CellLayout { <init>(...); }
+
+# view res/layout/drop_target_bar_horz.xml #generated:32
+# view res/layout/drop_target_bar_vert.xml #generated:27
+-keep class com.android.launcher3.DeleteDropTarget { <init>(...); }
+
+# view res/layout/drop_target_bar_horz.xml #generated:17
+# view res/layout/drop_target_bar_vert.xml #generated:17
+-keep class com.android.launcher3.DropTargetBar { <init>(...); }
+
+# view res/layout/all_apps.xml #generated:76
+# view res/layout/user_folder.xml #generated:43
+# view res/layout/user_folder_icon_normalized.xml #generated:43
+-keep class com.android.launcher3.ExtendedEditText { <init>(...); }
+
+# view res/layout/hotseat.xml #generated:16
+-keep class com.android.launcher3.Hotseat { <init>(...); }
+
+# view res/layout/drop_target_bar_horz.xml #generated:50
+# view res/layout/drop_target_bar_vert.xml #generated:53
+-keep class com.android.launcher3.InfoDropTarget { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+-keep class com.android.launcher3.InstallShortcutReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.android.launcher3.Launcher { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.android.launcher3.LauncherBackupAgent { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.android.launcher3.LauncherProvider { <init>(...); }
+
+# view land/res/layout-land/launcher.xml #generated:18
+# view port/res/layout-port/launcher.xml #generated:18
+# view sw720dp-v13/res/layout-sw720dp-v13/launcher.xml #generated:18
+-keep class com.android.launcher3.LauncherRootView { <init>(...); }
+
+# view AndroidManifest.xml #generated:142
+-keep class com.android.launcher3.SessionCommitReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.android.launcher3.SettingsActivity { <init>(...); }
+
+# view res/layout/drop_target_bar_horz.xml #generated:68
+# view res/layout/drop_target_bar_vert.xml #generated:37
+-keep class com.android.launcher3.UninstallDropTarget { <init>(...); }
+
+# view land/res/layout-land/launcher.xml #generated:37
+# view port/res/layout-port/launcher.xml #generated:38
+# view sw720dp-v13/res/layout-sw720dp-v13/launcher.xml #generated:37
+-keep class com.android.launcher3.Workspace { <init>(...); }
+
+# view res/layout/all_apps.xml #generated:19
+-keep class com.android.launcher3.allapps.AllAppsContainerView { <init>(...); }
+
+# view res/layout/all_apps.xml #generated:47
+-keep class com.android.launcher3.allapps.AllAppsRecyclerView { <init>(...); }
+
+# view res/layout/all_apps.xml #generated:36
+-keep class com.android.launcher3.allapps.AllAppsRecyclerViewContainerView { <init>(...); }
+
+# view res/layout/all_apps_discovery_item.xml #generated:16
+-keep class com.android.launcher3.discovery.AppDiscoveryItemView { <init>(...); }
+
+# view res/layout/all_apps_discovery_item.xml #generated:59
+-keep class com.android.launcher3.discovery.RatingView { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.android.launcher3.dragndrop.AddItemActivity { <init>(...); }
+
+# view land/res/layout-land/launcher.xml #generated:26
+# view port/res/layout-port/launcher.xml #generated:27
+# view sw720dp-v13/res/layout-sw720dp-v13/launcher.xml #generated:26
+-keep class com.android.launcher3.dragndrop.DragLayer { <init>(...); }
+
+# view res/layout/add_item_confirmation_activity.xml #generated:39
+-keep class com.android.launcher3.dragndrop.LivePreviewWidgetCell { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.android.launcher3.dynamicui.ColorExtractionService { <init>(...); }
+
+# view res/layout/user_folder.xml #generated:17
+# view res/layout/user_folder_icon_normalized.xml #generated:17
+-keep class com.android.launcher3.folder.Folder { <init>(...); }
+
+# view res/layout/folder_icon.xml #generated:17
+-keep class com.android.launcher3.folder.FolderIcon { <init>(...); }
+
+# view res/layout/user_folder.xml #generated:25
+# view res/layout/user_folder_icon_normalized.xml #generated:25
+-keep class com.android.launcher3.folder.FolderPagedView { <init>(...); }
+
+# view res/layout/notification_footer.xml #generated:18
+-keep class com.android.launcher3.notification.NotificationFooterLayout { <init>(...); }
+
+# view res/layout/notification.xml #generated:17
+-keep class com.android.launcher3.notification.NotificationItemView { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class com.android.launcher3.notification.NotificationListener { <init>(...); }
+
+# view res/layout/notification_main.xml #generated:18
+-keep class com.android.launcher3.notification.NotificationMainView { <init>(...); }
+
+# view land/res/layout-land/launcher.xml #generated:60
+-keep class com.android.launcher3.pageindicators.PageIndicatorCaretLandscape { <init>(...); }
+
+# view res/layout/user_folder.xml #generated:63
+# view res/layout/user_folder_icon_normalized.xml #generated:63
+-keep class com.android.launcher3.pageindicators.PageIndicatorDots { <init>(...); }
+
+# view res/layout/page_indicator.xml #generated:17
+-keep class com.android.launcher3.pageindicators.PageIndicatorLineCaret { <init>(...); }
+
+# view res/layout/popup_container.xml #generated:17
+-keep class com.android.launcher3.popup.PopupContainerWithArrow { <init>(...); }
+
+# view res/layout/qsb_blocker_view.xml #generated:17
+-keep class com.android.launcher3.qsb.QsbBlockerView { <init>(...); }
+
+# view res/layout/qsb_container.xml #generated:17
+-keep class com.android.launcher3.qsb.QsbContainerView { <init>(...); }
+
+# view res/layout/qsb_container.xml #generated:25
+-keep class com.android.launcher3.qsb.QsbContainerView$QsbFragment { <init>(...); }
+
+# view res/layout/deep_shortcut.xml #generated:23
+-keep class com.android.launcher3.shortcuts.DeepShortcutTextView { <init>(...); }
+
+# view res/layout/deep_shortcut.xml #generated:17
+# view res/layout/system_shortcut.xml #generated:17
+-keep class com.android.launcher3.shortcuts.DeepShortcutView { <init>(...); }
+
+# view res/layout/shortcuts_item.xml #generated:17
+-keep class com.android.launcher3.shortcuts.ShortcutsItemView { <init>(...); }
+
+# view res/layout/zzz_weight_watcher.xml #generated:2
+-keep class com.android.launcher3.testing.WeightWatcher { <init>(...); }
+
+# view res/layout/widget_cell.xml #generated:16
+-keep class com.android.launcher3.widget.WidgetCell { <init>(...); }
+
+# view res/layout/widget_cell_content.xml #generated:60
+-keep class com.android.launcher3.widget.WidgetImageView { <init>(...); }
+
+# view res/layout/widgets_bottom_sheet.xml #generated:17
+-keep class com.android.launcher3.widget.WidgetsBottomSheet { <init>(...); }
+
+# view res/layout/widgets_view.xml #generated:19
+-keep class com.android.launcher3.widget.WidgetsContainerView { <init>(...); }
+
+# view res/layout/widgets_view.xml #generated:46
+-keep class com.android.launcher3.widget.WidgetsRecyclerView { <init>(...); }
+
+# onClick res/layout/add_item_confirmation_activity.xml #generated:60
+-keepclassmembers class * { *** onCancelClick(...); }
+
+# onClick res/layout/add_item_confirmation_activity.xml #generated:66
+-keepclassmembers class * { *** onPlaceAutomaticallyClick(...); }
+
